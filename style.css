@@ -9,6 +9,10 @@ body {
 }
 
 /* Headings */
+h1 {
+  margin: 20px;
+}
+
 h1,
 h2,
 h3 {
@@ -16,10 +20,10 @@ h3 {
   text-align: center;
 }
 
-/* Header */
+/* Header */ø
 header {
   text-align: center;
-}
+} 
 
 /* Containers */
 div {
@@ -41,6 +45,7 @@ article div {
 p {
   line-height: 1.5;
 }
+
 
 /* Links */
 a:link {
@@ -75,4 +80,31 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+/* Groupings of elements */
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-text {
+  text-align:left;
+}
+
+.projects {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.font-size {
+  font-size:14px;
 }
